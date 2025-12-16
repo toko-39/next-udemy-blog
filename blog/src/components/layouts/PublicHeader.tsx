@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import SearchBox from "../post/SearchBox";
+import SearchBox from "../ui/post/SearchBox";
 
 export default function PublicHeader() {
   return (
