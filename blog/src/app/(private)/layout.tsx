@@ -1,7 +1,13 @@
+import PrivateHeader from "@/components/layouts/PrivateHeader";
 export default function PrivateLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div>{children}</div>;
+  return (
+    <>
+      <PrivateHeader />
+      {children}
+    </>
+  );
 }
